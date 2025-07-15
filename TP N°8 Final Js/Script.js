@@ -68,7 +68,7 @@ function getMemeByScore()
     return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZnRWqbN7StDtWb5d-8FVYGfL5d3MjDyyI5w&s";
   }
   else if(score <= 30){
-    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Rn3kMvHuDSUR6zXXUr2deIPmuVJfNz0loI1b7CPvm4Iiawfmg8ilXTQCnapaZ137Elk&usqp=CAU";
+    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjL88eej5XbkiY1CYfA-hYf5tVLDEMbzMew&s";
   }
   else if (score <= 50){
     return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstLEdGkVQQ4IrZ-uU-eYhsTYoiLIl3RGGlA&s";
