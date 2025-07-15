@@ -1,0 +1,29 @@
+body {
+  background-color: #222;
+  color: #f1f1f1;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+input {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
