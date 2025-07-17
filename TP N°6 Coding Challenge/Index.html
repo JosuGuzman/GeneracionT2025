@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Coding Challenge </title>
+  <link rel="stylesheet" href="/TP N°6 Coding Challenge/Style.css">
+</head>
+<body>
+  <h1>Coding Challenge</h1>
+
+  <section class="card">
+    <h2>Ejercicio 1: Rendimiento</h2>
+    <input type="number" id="notaInput" placeholder="Ingrese nota (0-10)">
+    <button onclick="mostrarRendimiento()">Evaluar</button>
+    <p id="resultado1"></p>
+  </section>
+
+  <section class="card">
+    <h2>Ejercicio 2: The Biggest One</h2>
+    <input type="number" id="num1" placeholder="Número 1" min="0">
+    <input type="number" id="num2" placeholder="Número 2" min="0">
+    <input type="text" id="palabra" placeholder="Palabra">
+    <button onclick="ejecutarBiggestOne()">Comparar</button>
+    <p id="resultado2">tyr</p>
+  </section>
+
+  <section class="card">
+    <h2>Ejercicio 3: FrootLoop</h2>
+    <button onclick="mostrarFrutas()">Filtrar Frutas</button>
+    <pre id="resultado3"></pre>
+  </section>
+
+  <section class="card">
+    <h2>Ejercicio 4: Dispenser de Gaseosas</h2>
+    <button onclick="mostrarStock()">Ver Stock</button>
+    <pre id="resultado4"></pre>
+  </section>
+
+  <section class="card">
+    <h2>Ejercicio 5: Año de Nacimiento</h2>
+    <input type="text" id="nombrePersona" placeholder="Nombre">
+    <input type="number" id="edadPersona" placeholder="Edad">
+    <button onclick="mostrarNacimiento()">Calcular Año de Nacimiento</button>
+    <p id="resultado5"></p>
+  </section>
+
+  <script src="/TP N°6 Coding Challenge/Script.js"></script>
+</body>
+</html>
